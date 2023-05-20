@@ -1,0 +1,11 @@
+.footer__link {
+    color: #FFF;
+    margin-right: 18px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__link {
+        margin-bottom: 32px;
+    }
+}
