@@ -9,6 +9,15 @@
     padding-top: calc(245/740 *100%);
 }
 
+@media screen and (max-width: 660px) {
+    .cover__title {
+        line-height: 1.09;
+        font-size: 32px;
+        padding-top: calc(33/200 *100%);
+        margin-bottom: 16px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__title {
         line-height: 1.09;

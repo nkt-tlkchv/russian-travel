@@ -2,6 +2,12 @@
     color: #FFF;
     margin-right: 18px;
     text-decoration: none;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {
