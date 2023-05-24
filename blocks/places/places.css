@@ -1,24 +1,26 @@
 .places {
-    margin: 0 148px;
+    margin: 0 auto;
+    width: calc(100% - 2*148px);
     display: grid;
     grid-template-columns: 1fr;
     gap: 80px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
     .places {
-       margin: 0 48px;
+       width: calc(100% - 2*48px);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
     .places {
-        margin: 0 24px;
+        width: calc(100% - 2*24px);
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
     .places {
-        margin: 0;
+        width: 100%;
+        gap: 50px;
     }
 }
