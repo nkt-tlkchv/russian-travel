@@ -1,0 +1,15 @@
+.header__lang-link {
+    margin: 18px 0 6px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 500px) {
+    .header__lang-link {
+        margin: 14px 0 8px;
+    }
+}
